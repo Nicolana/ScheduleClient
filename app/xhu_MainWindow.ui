@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>990</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>990</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>990</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="scoreTable">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>791</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>791</width>
+      <height>631</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1920</width>
+      <height>1080</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="toolTip">
+     <string>成绩课表</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="autoScrollMargin">
+     <number>7</number>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectItems</enum>
+    </property>
+    <property name="textElideMode">
+     <enum>Qt::ElideRight</enum>
+    </property>
+    <property name="verticalScrollMode">
+     <enum>QAbstractItemView::ScrollPerItem</enum>
+    </property>
+    <property name="rowCount">
+     <number>21</number>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>课程名称</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>课程性质</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignHCenter|AlignTop</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>开课学院</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>学分</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>绩点</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>成绩</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>汉语</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>85</red>
+        <green>170</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>汉语</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>161</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="dragDropOverwriteMode">
+     <bool>true</bool>
+    </property>
+    <row>
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>年级</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>学号</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>学院</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>专业</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>平均绩点</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>绩点评价</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>学年</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>学期</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>数据</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>朱文杰</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2015-2</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>3120151704210</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>人文学院</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>汉语言文学</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>95.5</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>优</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>2016-2017</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>161</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>成绩</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>课表</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2016-2017</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2015-2016</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2014-2015</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>72</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>141</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;h3&gt;绩点计算软件&lt;/h3&gt;&lt;p&gt;西华大学计算机协会出品&lt;/p&gt;&lt;p&gt;Version :  1.0.0&lt;/p&gt;联系方式 ： 854630101&lt;p&gt;&lt;p&gt;作者 ：Nicolana &lt;/p&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>切换</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
