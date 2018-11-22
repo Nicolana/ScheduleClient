@@ -11,7 +11,7 @@ Python3+
 pip install requests pyqt5 pyqt5-tools PIL bs4
 ```
 
-## Using Method
+## Usage
 
 在app文件夹里面使用python 运行 main.py 文件即可
 
